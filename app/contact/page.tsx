@@ -158,7 +158,7 @@ export default function Contact() {
               </svg>
             </div>
             <p className="font-semibold text-base mb-1">Address</p>
-            <p className="text-gray-500 text-sm">C-113, Janakpuri,<br />New Delhi - 110058</p>
+            <p className="text-gray-500 text-sm">C2A/113, Janakpuri,<br />New Delhi - 110058</p>
           </div>
         </div>
 

@@ -106,7 +106,7 @@ export default function PrivacyPolicy() {
             <p className="mb-2">If you have any questions about this Privacy Policy, please contact us at:</p>
             <p><strong>Email:</strong> <a href="mailto:support@bdaf.in" className="text-blue-600 hover:underline">support@bdaf.in</a></p>
             <p><strong>Phone:</strong> <a href="tel:+918744030904" className="text-blue-600 hover:underline">+91 87440 30904</a></p>
-            <p><strong>Address:</strong> C-113, Janakpuri, New Delhi - 110058</p>
+            <p><strong>Address:</strong> C2A/113, Janakpuri, New Delhi - 110058</p>
           </section>
         </div>
       </div>
