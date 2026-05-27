@@ -4,7 +4,7 @@ const steps = [
   {
     number: 1,
     title: "Reach Out to Us",
-    desc: "Fill out the form with your name, email, and contact number. Alternatively, contact our claim experts by calling us at 95136-31312.",
+    desc: "Fill out the form with your name, email, and contact number. Alternatively, contact our claim experts by calling us at 87440-30904.",
     image: "/how_it_work_1.png",
     side: "left",
   },
