@@ -25,6 +25,7 @@ export default function Footer() {
             <h3 className="text-lg font-semibold mb-6">Quick Links</h3>
             <ul className="space-y-3">
               <li><Link href="/" className="text-gray-400 hover:text-white transition">Home</Link></li>
+              <li><Link href="/about" className="text-gray-400 hover:text-white transition">About</Link></li>
               <li><Link href="/#services" className="text-gray-400 hover:text-white transition">Services</Link></li>
               <li><Link href="/#how-it-works" className="text-gray-400 hover:text-white transition">How It Works</Link></li>
               <li><Link href="/#faq" className="text-gray-400 hover:text-white transition">FAQ</Link></li>
@@ -74,6 +75,10 @@ export default function Footer() {
             <p className="text-gray-400 text-sm mb-4 md:mb-0">
               © {new Date().getFullYear()} Bima Dispute Action Forum. All rights reserved.
             </p>
+            <div className="flex flex-wrap justify-center gap-6 mb-4 md:mb-0">
+              <Link href="/privacy-policy" className="text-gray-400 hover:text-white transition text-sm">Privacy Policy</Link>
+              <Link href="/terms-and-conditions" className="text-gray-400 hover:text-white transition text-sm">Terms & Conditions</Link>
+            </div>
             <div className="flex space-x-6">
               <a href="#" className="text-gray-400 hover:text-white transition">
                 <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">

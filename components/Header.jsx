@@ -26,6 +26,7 @@ export default function Header() {
 
           <nav className="hidden md:flex space-x-8">
             <Link href="/" className="text-black hover:text-gray-600 font-medium">Home</Link>
+            <Link href="/about" className="text-black hover:text-gray-600 font-medium">About</Link>
             <Link href="/#services" className="text-black hover:text-gray-600 font-medium">Services</Link>
             <Link href="/#how-it-works" className="text-black hover:text-gray-600 font-medium">How It Works</Link>
             <Link href="/#faq" className="text-black hover:text-gray-600 font-medium">FAQ</Link>
@@ -57,6 +58,7 @@ export default function Header() {
         <div className="md:hidden bg-white border-t">
           <div className="px-4 py-4 space-y-3">
             <Link href="/" className="block text-black hover:text-gray-600 font-medium" onClick={() => setIsMenuOpen(false)}>Home</Link>
+            <Link href="/about" className="block text-black hover:text-gray-600 font-medium" onClick={() => setIsMenuOpen(false)}>About</Link>
             <Link href="/#services" className="block text-black hover:text-gray-600 font-medium" onClick={() => setIsMenuOpen(false)}>Services</Link>
             <Link href="/#how-it-works" className="block text-black hover:text-gray-600 font-medium" onClick={() => setIsMenuOpen(false)}>How It Works</Link>
             <Link href="/#faq" className="block text-black hover:text-gray-600 font-medium" onClick={() => setIsMenuOpen(false)}>FAQ</Link>

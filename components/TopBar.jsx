@@ -33,8 +33,8 @@ export default function TopBar() {
               </svg>
               +91 87440 30904
             </a>
-            <a href="#" className="flex items-center gap-1.5 hover:text-gray-300 transition">
-              <Image src="/whatsapp.png" alt="WhatsApp" width={20} height={20} />
+            <a href="https://wa.me/918744030904" target="_blank" rel="noopener noreferrer" className="flex items-center gap-1.5 hover:text-gray-300 transition">
+              <Image src="/whatsapp.png" alt="WhatsApp" width={28} height={28} />
               +91 87440 30904
             </a>
           </div>
